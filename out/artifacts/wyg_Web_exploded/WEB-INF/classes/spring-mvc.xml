@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p" xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo" xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context-3.0.xsd
+http://www.springframework.org/schema/mvc
+http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+    <!-- MVC配置 -->
+    <!-- 自动扫描controller包下的所有类，使其认为spring mvc的控制器 -->
+    <context:component-scan base-package="com.controller.*" />
+    <context:component-scan base-package="com.service" />
+
+    <bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource">
+        <property name="driverClassName">
+            <value>com.mysql.jdbc.Driver</value>
+        </property>
+        <property name="url">
+            <value>jdbc:mysql://localhost:3306/wordpress</value>
+        </property>
+        <property name="username">
+            <value>root</value>
+        </property>
+        <property name="password">
+            <value>root</value>
+        </property>
+        <property name="maxTotal">
+            <value>255</value>
+        </property>
+        <property name="maxIdle">
+            <value>2</value>
+        </property>
+        <property name="maxWaitMillis">
+            <value>120000</value>
+        </property>
+    </bean>
+
+
+    <bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter" />
+
+    <!-- 对模型视图名称的解析，即在模型视图名称添加前后缀 -->
+    <!--<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" p:prefix="/WEB-INF/page/" p:suffix=".html" />-->
+
+
+    <!--配置拦截器, 多个拦截器,顺序执行 -->
+    <!--<mvc:interceptors>-->
+        <!--<mvc:interceptor>-->
+            <!--&lt;!&ndash; 匹配的是url路径， 如果不配置或/**,将拦截所有的Controller &ndash;&gt;-->
+            <!--<mvc:mapping path="/" />-->
+            <!--<mvc:mapping path="/user/**" />-->
+            <!--<mvc:mapping path="/test/**" />-->
+            <!--<bean class="com.interceptor.CommonInterceptor"></bean>-->
+        <!--</mvc:interceptor>-->
+        <!--&lt;!&ndash; 当设置多个拦截器时，先按顺序调用preHandle方法，然后逆序调用每个拦截器的postHandle和afterCompletion方法 &ndash;&gt;-->
+    <!--</mvc:interceptors>-->
+
+    <bean id="beetlConfig" class="org.beetl.ext.spring.BeetlGroupUtilConfiguration" init-method="init"/>
+    <bean id="viewResolver" class="org.beetl.ext.spring.BeetlSpringViewResolver">
+        <property name="contentType" value="text/html;charset=UTF-8"/>
+    </bean>
+
+    <!-- DAO接口所在包名，Spring会自动查找其下的类 -->
+    <bean name="beetlSqlScannerConfigurer" class="org.beetl.sql.ext.spring4.BeetlSqlScannerConfigurer">
+        <!-- 哪些类可以自动注入 -->
+        <property name="basePackage" value="com.dao"/>
+        <!-- 通过类后缀 来自动注入Dao -->
+        <property name="daoSuffix" value="Dao"/>
+        <property name="sqlManagerFactoryBeanName" value="sqlManagerFactoryBean"/>
+    </bean>
+
+    <bean id="sqlManagerFactoryBean" class="org.beetl.sql.ext.spring4.SqlManagerFactoryBean">
+        <property name="cs" >
+            <bean  class="org.beetl.sql.ext.spring4.BeetlSqlDataSource">
+                <property name="masterSource" ref="dataSource"></property>
+            </bean>
+        </property>
+        <property name="dbStyle">
+            <bean class="org.beetl.sql.core.db.MySqlStyle"/>
+        </property>
+        <property name="sqlLoader">
+            <bean class="org.beetl.sql.core.ClasspathLoader">
+                <property name="sqlRoot" value="/sql"></property>
+            </bean>
+        </property>
+        <property name="nc">
+            <bean class="org.beetl.sql.core.UnderlinedNameConversion"/>
+        </property>
+        <property name="interceptors">
+            <list>
+                <bean class="org.beetl.sql.ext.DebugInterceptor"></bean>
+            </list>
+        </property>
+    </bean>
+
+
+    <!--&lt;!&ndash; 具体的实现bean &ndash;&gt;-->
+    <!--<bean id="demoService" class="com.dubbodemo.service.DemoServiceImpl" />-->
+
+    <!--&lt;!&ndash; 提供方应用信息，用于计算依赖关系 &ndash;&gt;-->
+    <!--<dubbo:application name="xs_provider" />-->
+
+    <!--&lt;!&ndash; 使用multicast广播注册中心暴露服务地址 &ndash;&gt;-->
+    <!--&lt;!&ndash;<dubbo:registry address="multicast://224.5.6.7:1234" /> &ndash;&gt;-->
+
+    <!--&lt;!&ndash; 使用zookeeper注册中心暴露服务地址 -即zookeeper的所在服务器ip地址和端口号 &ndash;&gt;-->
+    <!--<dubbo:registry address="zookeeper://192.168.31.70:2181" />-->
+
+    <!--&lt;!&ndash; 用dubbo协议在20880端口暴露服务 &ndash;&gt;-->
+    <!--<dubbo:protocol name="dubbo" port="20880" />-->
+
+    <!--&lt;!&ndash;&lt;!&ndash; 声明需要暴露的服务接口 &ndash;&gt;&ndash;&gt;-->
+    <!--&lt;!&ndash;<dubbo:service interface="com.dubbodemo.service.DemoService"&ndash;&gt;-->
+                   <!--&lt;!&ndash;ref="demoService" />&ndash;&gt;-->
+    <!--<dubbo:annotation package="com.dubbodemo.service" />-->
+
+    <!-- 消费方应用名，用于计算依赖关系，不是匹配条件，不要与提供方一样 -->
+    <!--<dubbo:application name="hjy_consumer" />-->
+
+    <!--&lt;!&ndash; 使用zookeeper注册中心暴露服务地址 &ndash;&gt;-->
+    <!--&lt;!&ndash; <dubbo:registry address="multicast://224.5.6.7:1234" /> &ndash;&gt;-->
+    <!--<dubbo:registry address="zookeeper://192.168.31.70:2181" />-->
+
+    <!--&lt;!&ndash; 生成远程服务代理，可以像使用本地bean一样使用demoService &ndash;&gt;-->
+    <!--&lt;!&ndash;<dubbo:reference id="demoService"&ndash;&gt;-->
+    <!--&lt;!&ndash;interface="com.dubbodemo.service.DemoService" />&ndash;&gt;-->
+    <!--<dubbo:annotation package="com.dubbodemo.service.con" />-->
+
+
+    <!-- 支持上传文件 -->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver"/>
+
+</beans>
