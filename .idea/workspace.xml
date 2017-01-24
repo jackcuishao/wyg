@@ -1,267 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="86a6ccba-89e3-4803-bced-c520429c44e0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/global" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/controller" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/controller/admin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/dao" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/dubbodemo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/dubbodemo/service" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/dubbodemo/service/con" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/interceptor" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/modal" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/modal/sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/service" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/service/base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/utils" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/beetl-2.7.3-sources.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/beetl-2.7.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/beetlsql-2.7.5.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-dbcp2-2.1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-fileupload-1.2.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-httpclient-3.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-pool2-2.4.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/dubbo-2.8.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/fastjson-1.2.23.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jstl.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.35-bin.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/servlet-api.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-aop-4.3.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-aspects-4.3.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-4.3.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-4.3.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-support-4.3.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-core-4.3.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-expression-4.3.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-instrument-4.3.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-instrument-tomcat-4.3.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-jdbc-4.3.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-jms-4.3.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-messaging-4.3.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-orm-4.3.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-oxm-4.3.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-test-4.3.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-tx-4.3.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-web-4.3.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-webmvc-4.3.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-webmvc-portlet-4.3.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-websocket-4.3.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/standard.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/zookeeper-3.4.9.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/page" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/page/admin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/page/comm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/admin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/comm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs/emotion" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs/emotion/images" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs/emotion/images/0.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs/emotion/images/bface.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs/emotion/images/cface.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs/emotion/images/fface.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs/emotion/images/jxface2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs/emotion/images/neweditor-tab-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs/emotion/images/tface.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs/emotion/images/wface.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs/emotion/images/yface.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs/formula" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs/formula/images" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs/formula/images/formula.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs/image" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs/image/images" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs/image/images/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs/image/images/upload1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs/image/images/upload2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs/link" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs/map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs/video" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs/video/images" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs/video/images/center_focus.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs/video/images/left_focus.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs/video/images/none_focus.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs/video/images/right_focus.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/lang" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/lang/en" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/lang/en/images" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/lang/en/images/addimage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/lang/en/images/alldeletebtnhoverskin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/lang/en/images/alldeletebtnupskin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/lang/en/images/background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/lang/en/images/button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/lang/en/images/copy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/lang/en/images/deletedisable.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/lang/en/images/deleteenable.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/lang/en/images/imglabel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/lang/en/images/listbackground.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/lang/en/images/localimage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/lang/en/images/music.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/lang/en/images/rotateleftdisable.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/lang/en/images/rotateleftenable.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/lang/en/images/rotaterightdisable.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/lang/en/images/rotaterightenable.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/lang/en/images/upload.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/lang/zh-cn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/lang/zh-cn/images" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/lang/zh-cn/images/copy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/lang/zh-cn/images/imglabel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/lang/zh-cn/images/localimage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/lang/zh-cn/images/music.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/lang/zh-cn/images/upload.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/themes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/themes/default" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/themes/default/css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/themes/default/images" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/themes/default/images/caret.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/themes/default/images/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/themes/default/images/icons.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/themes/default/images/icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/themes/default/images/ok.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/themes/default/images/pop-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/themes/default/images/spacer.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/themes/default/images/videologo.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/third-party" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/third-party/mathquill" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/third-party/mathquill/font" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/third-party/mathquill/font/Symbola.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/third-party/mathquill/font/Symbola.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/third-party/mathquill/font/Symbola.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/third-party/mathquill/font/Symbola.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/third-party/mathquill/font/stixgeneral-bundle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneral-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneral-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneral-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbol-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbol-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbol-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbolita-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbolita-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbolita-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralitalic-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralitalic-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralitalic-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/wyg_Web_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/cuishaojie.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/global/beetl.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/global/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/global/spring-mvc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/controller/admin/AdminController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/controller/admin/UmFileUpController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/controller/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/dao/WpUserDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/dubbodemo/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/dubbodemo/service/Consumer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/dubbodemo/service/DemoService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/dubbodemo/service/DemoServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/dubbodemo/service/Provider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/dubbodemo/service/con/Consumer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/interceptor/CommonInterceptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/modal/WpCommentmeta.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/modal/WpComments.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/modal/WpLinks.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/modal/WpOptions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/modal/WpPostmeta.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/modal/WpPosts.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/modal/WpTermRelationships.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/modal/WpTermTaxonomy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/modal/WpTermmeta.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/modal/WpTerms.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/modal/WpUsermeta.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/modal/WpUsers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/modal/sql/wpCommentmeta.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/modal/sql/wpComments.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/modal/sql/wpLinks.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/modal/sql/wpOptions.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/modal/sql/wpPostmeta.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/modal/sql/wpPosts.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/modal/sql/wpTermRelationships.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/modal/sql/wpTermTaxonomy.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/modal/sql/wpTermmeta.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/modal/sql/wpTerms.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/modal/sql/wpUsermeta.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/modal/sql/wpUsers.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/service/WpUserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/service/base/WpUserServiceBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/service/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/utils/BeetlSQL.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/page/admin/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/page/comm/comhead.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/page/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/admin/admin.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/comm/comm.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/npm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs/emotion/emotion.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs/emotion/emotion.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs/formula/formula.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs/formula/formula.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs/formula/formula.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs/image/image.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs/image/image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs/link/link.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs/map/map.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs/map/map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs/video/video.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/dialogs/video/video.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/lang/en/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/lang/zh-cn/zh-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/themes/default/css/umeditor.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/themes/default/css/umeditor.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/third-party/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/third-party/mathquill/font/Symbola.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/third-party/mathquill/font/stixgeneral-bundle/STIXFontLicense2010.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneral-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbol-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbolita-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralitalic-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/third-party/mathquill/mathquill.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/third-party/mathquill/mathquill.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/third-party/mathquill/mathquill.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/umeditor.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/umeditor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/umeditor/umeditor.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wyg.iml" />
+    <list default="true" id="86a6ccba-89e3-4803-bced-c520429c44e0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wyg.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -278,117 +20,43 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - wordpress@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="wyg" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="spring-mvc.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/global/spring-mvc.xml">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/controller/admin/AdminController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.5294118">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="beetl.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/global/beetl.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="63" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommonInterceptor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/interceptor/CommonInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Consumer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dubbodemo/service/con/Consumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UmFileUpController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/controller/admin/UmFileUpController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="comm.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/css/comm/comm.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="comhead.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/page/comm/comhead.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WpUserDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dao/WpUserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.25">
-              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24691358">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.5882353">
+              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -400,6 +68,8 @@
       <list>
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/com/controller/admin/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/com/controller/admin/UmFileUpController.java" />
       </list>
     </option>
   </component>
@@ -420,7 +90,7 @@
     <option name="width" value="1440" />
     <option name="height" value="873" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -445,6 +115,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -463,17 +135,79 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wyg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wyg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wyg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wyg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wyg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wyg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wyg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wyg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="global" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/beetlsql-2.7.5-all" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15144767" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -895,6 +629,11 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -997,50 +736,79 @@
       <created>1485225510570</created>
       <option name="number" value="Default" />
       <updated>1485225510570</updated>
-      <workItem from="1485225513057" duration="2286000" />
+      <workItem from="1485225513057" duration="2499000" />
+      <workItem from="1485228079933" duration="2722000" />
     </task>
+    <task id="LOCAL-00001" summary="JAR包">
+      <created>1485230181757</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1485230181758</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2286000" />
+    <option name="totallyTimeSpent" value="5221000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.55441743" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.55441743" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37644047" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1788269" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37516004" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="JAR包" />
+    <option name="LAST_COMMIT_MESSAGE" value="JAR包" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/controller/admin/UmFileUpController.java</url>
+          <line>39</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1048,17 +816,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/dao/WpUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/global/spring-mvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.5294118">
+        <state vertical-scroll-proportion="0.0">
           <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
           <folding />
         </state>
@@ -1076,7 +836,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1085,7 +847,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1116,9 +878,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dao/WpUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.25">
+        <state vertical-scroll-proportion="0.0">
           <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
           <folding />
         </state>
@@ -1126,8 +896,131 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24691358">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dao/WpUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08230453">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37037036">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/page/comm/comhead.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/comm/comm.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dubbodemo/service/con/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3984064">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/f3d647b4/6689e85e-b508-474c-b3a9-2962fb4a6fb7/wordpress.wp_links">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6689e85e-b508-474c-b3a9-2962fb4a6fb7/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/interceptor/CommonInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9782609">
+          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/controller/admin/UmFileUpController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5782609">
+          <caret line="42" column="53" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32608697">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global/beetl.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48913044">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17603911">
+          <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/controller/admin/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5882353">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -1209,11 +1102,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web|wyg</last-edited>
+          <last-edited>wyg</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
