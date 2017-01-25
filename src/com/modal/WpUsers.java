@@ -1,4 +1,6 @@
 package com.modal;
+import org.beetl.sql.core.annotatoin.AutoID;
+
 import java.io.Serializable;
 import java.math.*;
 import java.util.Date;

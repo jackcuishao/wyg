@@ -17,11 +17,13 @@ public class AdminController {
     @Autowired
     WpUserService userService;
 
+    @Autowired
+    private WpUserDao userDao;
+
     @RequestMapping("/index")
     public ModelAndView index(){
-        WpUsers user =  userService.unique(1);
         ModelAndView view = new ModelAndView("/admin/index.html");
-        view.addObject("user",user);
         return view;
     }
+
 }

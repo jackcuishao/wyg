@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户列表</title>
+    <%
+    include("/comm/comhead.html"){}
+    %>
+    <link href="/css/bootstrap.css" rel="stylesheet" />
+    <link href="/css/admin/admin.css" rel="stylesheet" />
+    <link href="/css/comm/comm.css" rel="stylesheet" />
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.twbsPagination.min.js"></script>
+</head>
+<body>
+<%
+include("/comm/nav.html"){}
+%>
+<div class="container">
+<div class="panel panel-default">
+    <div class="panel-body">
+        <a class="btn btn-success pull-right" href="/admin/user/addview.do"><span class="glyphicon glyphicon-plus"></span>增加用户</a>
+        <div class="clearfix"></div>
+        <hr/>
+        <form action="/admin/user/userlist.do" method="post" id="CrmRoleFrm">
+            <div class="col-sm-3 form-group">
+                <label>角色名称</label>
+                <input type="text" name="rolename" value="${rolename!}" class="form-control"/>
+            </div>
+            <div class="col-sm-3 form-group">
+                <label>角色属性</label>
+                <select name="type" id="type" class="form-control">
+                    <option value="">全部</option>
+                </select>
+            </div>
+            <div class="col-sm-3 form-group">
+                <label>角色状态</label>
+                <select name="state" id="state" class="form-control">
+                    <option value="">全部</option>
+
+                </select>
+            </div>
+            <div class="col-sm-3 form-group">
+                <label>查询精度</label>
+                <select name="isPrecise" class="form-control">
+
+                </select>
+            </div>
+            <div class="form-group col-sm-12">
+                <button class="btn btn-primary" type="submit">查询用户角色表</button>
+                <button class="btn btn-default" type="reset">重置</button>
+            </div>
+            <input type="hidden" name="page" id="page" value="${page!}"/>
+        </form>
+    </div>
+    <table class="table">
+        <tr>
+            <th></th>
+            <th>用户账号</th>
+            <th>昵称</th>
+            <th>电子邮箱</th>
+            <th>用户状态</th>
+            <th>操作</th>
+        </tr>
+        <%for(col in pager.list){%>
+        <tr>
+            <td>${colLP.index!}</td>
+            <td>${col.userLogin!}</td>
+            <td>${col.userNicename!}</td>
+            <td>${col.userEmail!}</td>
+            <td>
+                ${col.userStatus==1?"启用":"禁用"}
+            </td>
+            <td>
+                <a class="btn btn-default btn-xs" href="/role/view/${col.id!}">查看</a>
+                <a class="btn btn-warning btn-xs" href="/role/edit/${col.id!}">修改</a>
+            </td>
+        </tr>
+        <%}%>
+
+    </table>
+</div>
+
+
+
+<%if(pager.TotalRow>0){%>
+<nav class="container">
+    <div class="col-xs-8">
+        <ul class="pagination" id="pager">
+        </ul>
+    </div>
+    <div class="col-xs-2">
+        <br>
+        <div class="input-group">
+            <input type="text" class="form-control" id="pageNum" value="${pager.pageNumber!(1)}" aria-label="...">
+            <div class="input-group-btn">
+                <button class="btn btn-default" id="goBtn">GO</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-2">
+        <ul class="pagination"><li><span>${pager.totalRow}条/${pager.totalPage}页</span></li></ul>
+    </div>
+</nav>
+<%}%>
+</div>
+</body>
+<script>
+    //分页
+    function Page(num){
+        $("#page").val(num);
+        $("#orderListFrm").submit();
+    };
+    <% if(!isEmpty(pager.list)){%>
+        $('#pager').twbsPagination({
+            totalPages: ${pager.totalPage},
+            visiblePages: 10,
+            initiateStartPageClick:false,
+            startPage:${pager.pageNumber},
+            first:"首页",
+            prev:"上一页",
+            next:"下一页",
+            last:"尾页",
+            onPageClick: function (event, page) {
+                Page(page);
+            }
+        });
+        $("#goBtn").on("click",function (){
+            var _page=parseInt($("#pageNum").val());
+            var min=1;var max=${pager.totalPage};
+            if(_page>=min&&_page<=max){
+                Page(_page);
+            }else {
+                bootbox.alert("您输入的页数错误!");
+            }
+
+        });
+        <%}%>
+</script>
+</html>

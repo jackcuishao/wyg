@@ -669,7 +669,6 @@ taxonomy</columns>
       </column>
       <column id="140" parent="13" name="user_url">
         <comment>网址</comment>
-        <mandatory>1</mandatory>
         <data-type>varchar(100)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
@@ -681,7 +680,6 @@ taxonomy</columns>
       </column>
       <column id="142" parent="13" name="user_activation_key">
         <comment>激活码</comment>
-        <mandatory>1</mandatory>
         <data-type>varchar(255)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
@@ -693,7 +691,6 @@ taxonomy</columns>
       </column>
       <column id="144" parent="13" name="display_name">
         <comment>显示名称</comment>
-        <mandatory>1</mandatory>
         <data-type>varchar(250)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
@@ -709,9 +706,18 @@ taxonomy</columns>
         <columns>user_nicename</columns>
         <desc-columns></desc-columns>
       </index>
-      <key id="148" parent="13" name="PRIMARY">
+      <index id="148" parent="13" name="wp_users_ID_uindex">
+        <columns>ID</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="149" parent="13" name="PRIMARY">
         <columns>ID</columns>
         <primary>1</primary>
+      </key>
+      <key id="150" parent="13" name="wp_users_ID_uindex">
+        <columns>ID</columns>
+        <underlying-index>wp_users_ID_uindex</underlying-index>
       </key>
     </database-model>
   </data-source>
