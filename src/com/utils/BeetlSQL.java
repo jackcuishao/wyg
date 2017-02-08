@@ -5,6 +5,7 @@ import org.beetl.sql.core.db.DBStyle;
 import org.beetl.sql.core.db.MySqlStyle;
 import org.beetl.sql.ext.DebugInterceptor;
 import org.beetl.sql.ext.gen.GenConfig;
+import org.beetl.sql.ext.gen.GenFilter;
 
 /**
  * Created by cuishaojie on 2017/1/13.
@@ -53,11 +54,20 @@ public class BeetlSQL {
 
 
         //数据库全部生成,不可卵用,可加过滤器
-//        try {
-//            sqlManager.genALL("com.modal", new GenConfig(), null);
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
+        try {
+            sqlManager.genALL("com.modal", new GenConfig(), new GenFilter(){
+                public boolean accept(String tableName) {
+                    if (tableName.equalsIgnoreCase("wp_posts")) {
+                        return true;
+                    } else {
+                        return false;
+                    }
+                    // return false
+                }
+            });
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
     }
 }

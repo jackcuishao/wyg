@@ -6,7 +6,7 @@ import java.sql.Timestamp;
 
 /*
 * 
-* gen by beetlsql 2017-01-23
+* gen by beetlsql 2017-01-25
 */
 public class WpPosts   implements Serializable{
 	//自增唯一ID
@@ -15,35 +15,26 @@ public class WpPosts   implements Serializable{
 	private Integer menuOrder ;
 	//评论总数
 	private Long commentCount ;
-	//评论状态（open/closed）
-	private String commentStatus ;
-	private String guid ;
-	//PING状态（open/closed）
-	private String pingStatus ;
-	//已经PING过的链接
-	private String pinged ;
+	//标签
+	private String label ;
+	//特色图URL
+	private String picUrl ;
 	//对应作者ID
 	private Long postAuthor ;
 	//正文
 	private String postContent ;
-	private String postContentFiltered ;
 	//摘录
 	private String postExcerpt ;
-	//MIME类型
-	private String postMimeType ;
 	//文章缩略名
 	private String postName ;
 	//父文章，主要用于PAGE
 	private Long postParent ;
-	//文章密码
-	private String postPassword ;
-	//文章状态（publish/auto-draft/inherit等）
-	private String postStatus ;
 	//标题
 	private String postTitle ;
 	//文章类型（post/page等）
 	private String postType ;
-	private String toPing ;
+	//推广链接
+	private String promoteLink ;
 	//发布时间
 	private Date postDate ;
 	//发布时间（GMT+0时间）
@@ -77,32 +68,18 @@ public class WpPosts   implements Serializable{
 		this.commentCount = commentCount;
 	}
 	
-	public String getCommentStatus(){
-		return  commentStatus;
+	public String getLabel(){
+		return  label;
 	}
-	public void setCommentStatus(String commentStatus ){
-		this.commentStatus = commentStatus;
-	}
-	
-	public String getGuid(){
-		return  guid;
-	}
-	public void setGuid(String guid ){
-		this.guid = guid;
+	public void setLabel(String label ){
+		this.label = label;
 	}
 	
-	public String getPingStatus(){
-		return  pingStatus;
+	public String getPicUrl(){
+		return  picUrl;
 	}
-	public void setPingStatus(String pingStatus ){
-		this.pingStatus = pingStatus;
-	}
-	
-	public String getPinged(){
-		return  pinged;
-	}
-	public void setPinged(String pinged ){
-		this.pinged = pinged;
+	public void setPicUrl(String picUrl ){
+		this.picUrl = picUrl;
 	}
 	
 	public Long getPostAuthor(){
@@ -119,25 +96,11 @@ public class WpPosts   implements Serializable{
 		this.postContent = postContent;
 	}
 	
-	public String getPostContentFiltered(){
-		return  postContentFiltered;
-	}
-	public void setPostContentFiltered(String postContentFiltered ){
-		this.postContentFiltered = postContentFiltered;
-	}
-	
 	public String getPostExcerpt(){
 		return  postExcerpt;
 	}
 	public void setPostExcerpt(String postExcerpt ){
 		this.postExcerpt = postExcerpt;
-	}
-	
-	public String getPostMimeType(){
-		return  postMimeType;
-	}
-	public void setPostMimeType(String postMimeType ){
-		this.postMimeType = postMimeType;
 	}
 	
 	public String getPostName(){
@@ -154,20 +117,6 @@ public class WpPosts   implements Serializable{
 		this.postParent = postParent;
 	}
 	
-	public String getPostPassword(){
-		return  postPassword;
-	}
-	public void setPostPassword(String postPassword ){
-		this.postPassword = postPassword;
-	}
-	
-	public String getPostStatus(){
-		return  postStatus;
-	}
-	public void setPostStatus(String postStatus ){
-		this.postStatus = postStatus;
-	}
-	
 	public String getPostTitle(){
 		return  postTitle;
 	}
@@ -182,11 +131,11 @@ public class WpPosts   implements Serializable{
 		this.postType = postType;
 	}
 	
-	public String getToPing(){
-		return  toPing;
+	public String getPromoteLink(){
+		return  promoteLink;
 	}
-	public void setToPing(String toPing ){
-		this.toPing = toPing;
+	public void setPromoteLink(String promoteLink ){
+		this.promoteLink = promoteLink;
 	}
 	
 	public Date getPostDate(){

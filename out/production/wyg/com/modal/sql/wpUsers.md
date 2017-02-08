@@ -46,3 +46,10 @@ condition
 	 and `display_name`=#displayName#
 	@}
 	
+queryWpUser
+===
+select * from wp_users where #use("condition")# order by id desc 
+
+queryWpUser$count
+===
+select count(*) from wp_users where #use("condition")#

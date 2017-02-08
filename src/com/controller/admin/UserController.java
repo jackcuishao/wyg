@@ -17,7 +17,7 @@ import org.springframework.web.servlet.ModelAndView;
 @RequestMapping("/admin/user")
 public class UserController {
     @Autowired
-    WpUserService userService;
+    private WpUserService userService;
 
     @Autowired
     private WpUserDao userDao;

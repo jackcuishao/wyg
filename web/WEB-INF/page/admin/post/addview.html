@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文章添加</title>
+    <%
+    include("/comm/comhead.html"){}
+    %>
+    <link href="/css/bootstrap.css" rel="stylesheet" />
+    <link href="/css/admin/admin.css" rel="stylesheet" />
+    <link href="/css/comm/comm.css" rel="stylesheet" />
+    <link href="/css/fileinput.min.css" rel="stylesheet" />
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <link href="/umeditor/themes/default/css/umeditor.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" charset="utf-8" src="/umeditor/umeditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="/umeditor/umeditor.min.js"></script>
+    <script type="text/javascript" src="/umeditor/lang/zh-cn/zh-cn.js"></script>
+    <script src="/js/fileinput.min.js"></script>
+    <script src="/js/fileinput_locale_zh.js"></script>
+</head>
+<body>
+<div class="container">
+    <h3 class="page-header">商品添加</h3>
+    <form method="post" action="/goods/save" id="CRM_GOODSForm">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="form-group col-sm-4 ">
+                    <label class="text-danger">特色主图(*)</label>
+                    <input type="hidden" id="pic_Str" name="pic_Str"/>
+                    <input id="file-Path" name="path" data-filename="退票理由" class="file form-control input-sm" type="file"  data-upload-url="/return/uploadImg"  />
+                </div>
+                <div class="form-group col-sm-4 ">
+                    <label class="text-danger">商品名称(*)</label>
+                    <input type="text" name="cnname" class="form-control" />
+                </div>
+                <div class="form-group col-sm-4 ">
+                    <label class="text-danger">栏目名称(*)</label>
+                    <select name="classid" class="form-control">
+                        <option value="">全部</option>
+                    </select>
+                </div>
+
+                <div class="form-group col-sm-4 ">
+                    <label class="text-danger">排序号</label>
+                    <input type="text" name="productnumber" class="form-control" />
+                </div>
+
+                <div class="form-group col-sm-4 ">
+                    <label class="text-danger">关键字(以逗号间隔)</label>
+                    <input type="text" name="productnumber" class="form-control" />
+                </div>
+
+                <div class="form-group col-sm-8 ">
+                    <label class="text-danger">一句话描述(*)</label>
+                    <input type="text" name="onedescribe" class="form-control"  />
+                </div>
+
+                <div class="form-group col-sm-8 ">
+                    <label class="text-danger">摘录(*)</label>
+                    <script type="text/plain" id="content" name="content" style="width:100%;height:100px;"></script>
+                    <script type="text/javascript">
+                    var content = UM.getEditor('content');
+                    </script>
+                </div>
+
+                <div class="clearfix"></div>
+                <div class="form-group col-sm-12 ">
+                    <label class="text-danger">产品信息(*)</label>
+                    <script type="text/plain" id="productcontent" name="productcontent" style="width:100%;height:388px;"></script>
+                    <script type="text/javascript">
+                        var content = UM.getEditor('productcontent');
+                    </script>
+                    <label class="text-danger" id="procontentMs"></label>
+                </div>
+
+            </div>
+            <div class="clearfix"></div>
+            <hr/>
+            <div class="panel-body">
+                <div class="form-group col-sm-12">
+                    <button class="btn btn-primary btn-sm" type="button" id="submitBtn">添加商品</button>
+                    <button class="btn btn-default btn-sm" type="reset">重置</button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+</div>
+
+
+
+</body>
+</html>
