@@ -11,6 +11,7 @@ import org.springframework.web.multipart.MultipartHttpServletRequest;
 
 import javax.servlet.http.HttpServletRequest;
 import java.io.File;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -67,5 +68,31 @@ public class UmFileUpController{
             return ("<script>"+ callback +"(" + JSON.toJSON(data) + ")</script>");
         }
 
+    }
+
+    @ResponseBody
+    @RequestMapping("/uploadImg")
+    public String uploadImg(HttpServletRequest request,ModelMap model){
+        MultipartHttpServletRequest multipartRequest = (MultipartHttpServletRequest) request;
+        MultipartFile file = multipartRequest.getFile("upfile");
+
+        String path = request.getSession().getServletContext().getRealPath("upload");
+        String fileName = file.getOriginalFilename();
+        fileName = new Date().getTime()+"."+fileName.substring(fileName.lastIndexOf(".")+1);
+        File targetFile = new File(path, fileName);
+        if(!targetFile.exists()){
+            targetFile.mkdirs();
+        }
+
+        //保存
+        try {
+            file.transferTo(targetFile);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        Map<String,String> data=new HashMap<>();
+        data.put("picStr","/upload/"+fileName);
+
+        return  JSON.toJSON(data).toString();
     }
 }
